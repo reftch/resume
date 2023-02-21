@@ -1,0 +1,55 @@
+.experience {
+  position: relative;
+  background: var(--primary-color);
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--border-bottom);
+
+  h2 {
+    color: var(--background);
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  &-box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+  }
+  &-company {
+    min-width: 150px;
+  }
+  h5 {
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+  }
+  h4 {
+    text-transform: uppercase;
+    color: var(--position-color);
+    font-size: 16px;
+  }
+  p {
+    color: #333;
+    font-weight: 300;
+    padding-top: 3px;
+  }
+  a.companyName {
+    text-transform: uppercase;
+    color: var(--company-color);
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  a.companyName:hover {
+    color: var(--position-color);
+  }
+  p {
+    color: var(--text-color);
+    font-weight: 300;
+  }
+}

@@ -1,0 +1,45 @@
+.icon {
+  display: inline-block;
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-right: 10px;
+  color: var(--links-color);
+}
+
+.icon-jogging::before {
+  content: "\f70c";
+}
+.icon-phone::before {
+  content: "\f095";
+}
+.icon-envelope::before {
+  content: "\f0e0";
+}
+.icon-github::before {
+  content: "\f09b";
+}
+.icon-envelope::before {
+  content: "\f0e0";
+}
+.icon-linkedin::before {
+  content: "\f0e1";
+  padding-right: 2px;
+}
+.icon-xing::before {
+  content: "\f168";
+  padding-right: 4px;
+}
+.icon-fishing::before {
+  content: "\f578";
+}
+.icon-music::before {
+  content: "\f001";
+}
+.icon-cooking::before {
+  content: "\f2e7";
+}
