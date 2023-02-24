@@ -1,0 +1,29 @@
+.awards {
+  flex-direction: column;
+  align-items: left;
+  padding-bottom: 10px;
+
+  h2 {
+    @include chapter-big;
+  }
+
+  &-box {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+  }
+
+  &-date {
+    min-width: 100px;
+  }
+
+  h5 {
+    color: #848c90;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+  .description {
+    color: #333;
+    font-weight: 300;
+  }
+}

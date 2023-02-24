@@ -1,0 +1,19 @@
+@mixin chapter-big {
+  color: var(--background);
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+@mixin chapter-small {
+  color: var(--primary-color);
+  font-size: 1em;
+  margin-top: 30px;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: 600;
+  line-height: 1.4em;
+  padding-bottom: 5px;
+}

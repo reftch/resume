@@ -8,25 +8,22 @@
   border-bottom: 1px solid var(--border-bottom);
 
   h2 {
-    color: var(--background);
-    font-size: 1.5em;
-    margin-top: 20px;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 10px;
+    @include chapter-big;
   }
+
   &-box {
     display: flex;
     flex-direction: row;
-    margin: 20px 0;
+    margin: 30px 0;
   }
   &-company {
     min-width: 150px;
   }
   h5 {
-    text-transform: uppercase;
+    // text-transform: uppercase;
     color: #848c90;
     font-weight: 600;
+    padding-bottom: 5px;
   }
   h4 {
     text-transform: uppercase;
@@ -34,22 +31,45 @@
     font-size: 16px;
   }
   p {
-    color: #333;
+    color: var(--text-color);
     font-weight: 300;
     padding-top: 3px;
   }
-  a.companyName {
+  a {
     text-transform: uppercase;
     color: var(--company-color);
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.85rem;
     text-decoration: none;
   }
-  a.companyName:hover {
+  a:hover {
     color: var(--position-color);
   }
-  p {
-    color: var(--text-color);
-    font-weight: 300;
+
+  .project {
+    padding-bottom: 10px;
+    
+    .name {
+      color: var(--project-name);
+      font-weight: 600;
+      padding-top: 3px;
+    }
+    .description {
+      padding-bottom: 8px;
+    }
+    
+    .technologies {
+      color: var(--project-name);
+      padding-bottom: 10px;
+      
+      .title {
+        font-weight: 500;
+        padding-right: 5px;
+      }
+      .description {
+        color: var(--project-technologies);
+        font-weight: 300;  
+      }
+    }
   }
 }

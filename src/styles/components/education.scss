@@ -1,6 +1,7 @@
 .education {
   flex-direction: column;
   align-items: left;
+  padding-bottom: 10px;
 
   h5 {
     color: var(--links-color);
@@ -8,30 +9,19 @@
     font-size: 1.2em;
   }
 
-  h3 {
-    color: var(--primary-color);
-    font-size: 1em;
-    margin-top: 30px;
-    text-transform: uppercase;
-    text-align: left;
-    font-weight: 600;
-    line-height: 0.5em;
+  h3 {  
+    @include chapter-small;
   }
 
   h4 {
     font-size: 1.1em;
     font-weight: 400;
-  }
-
-  ul {
-    position: relative;
+    cursor: default;
   }
   
   li {
-    position: relative;
     list-style: none;
     margin: 0px 0;
-    cursor: pointer;
     color: var(--primary-color);
     line-height: 20px;
     font-size: 13px;

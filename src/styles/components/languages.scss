@@ -3,14 +3,9 @@
   align-items: left;
 
   h3 {
-    color: var(--primary-color);
-    font-size: 1em;
-    margin-top: 30px;
-    text-transform: uppercase;
-    text-align: left;
-    font-weight: 600;
-    line-height: 1.4em;
+    @include chapter-small;
   }
+  
   ul {
     position: relative;
     padding-top: 0px;
@@ -19,7 +14,6 @@
     position: relative;
     list-style: none;
     margin: 0px 0;
-    cursor: pointer;
     color: var(--primary-color);
     line-height: 35px;
     font-size: 13px;

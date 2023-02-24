@@ -23,16 +23,16 @@
     overflow: hidden;
     color: var(--primary-color);
   }
-  &-image img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+  // &-image img {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   object-fit: cover;
+  // }
   &-name {
-    color: #fff;
+    color: var(--primary-color);
     font-size: 1.5em;
     margin-top: 20px;
     text-transform: uppercase;

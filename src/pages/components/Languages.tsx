@@ -17,10 +17,10 @@ const Languages = () => {
     <div className="languages">
       <h3>Languages</h3>
       <ul>
-        {Language("English", 80)}
+        {Language("English", 75)}
         {Language("Deutsch", 50)}
         {Language("Ukranian", 95)}
-        {Language("Russian", 80)}
+        {Language("Russian", 75)}
       </ul>
     </div>
   );

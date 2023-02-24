@@ -8,6 +8,7 @@ import Experience from "@/pages/components/Experience";
 import Skills from "@/pages/components/Skills";
 import Languages from "@/pages/components/Languages";
 import Interest from "./components/Interest";
+import Awards from "./components/Awards";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
           <Profile />
           <Experience />
           <Skills />
+          <Awards />
           <Interest />
         </div>
       </main>
